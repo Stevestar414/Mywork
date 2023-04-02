@@ -1,0 +1,273 @@
+@media (max-width:1400px) {
+
+    .intro__element-1,
+    .intro__element-2,
+    .intro__element-3,
+    .intro__element-4,
+    .about__element,
+    .about__bg,
+    .cap__element,
+    .works__bg,
+    .works__element-1,
+    .works__element-2,
+    .footer__element {
+        display: none;
+    }
+
+
+    .intro__text {
+        padding: 0 20px;
+    }
+
+
+    .intro__carousel-img {
+        width: 100%;
+    }
+
+
+    .col-lg-6 {
+        padding: 0 30px;
+    }
+
+    .cap__img {
+        width: 100%;
+    }
+
+    .works__tabs-link {
+        line-height: 28px;
+    }
+
+    .footer__list{
+        column-gap: 30px;
+    }
+    
+    .footer__list-link{
+        font-size: 20px;
+    }
+
+    .works{
+        padding: 81px 0 80px;
+    }
+    
+}
+
+@media (max-width:1200px) {
+
+    .works__content {
+        margin-top: 50px;
+    }
+    
+    .footer__list-link{
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width:992px) {
+    .navbar-nav {
+        row-gap: 20px;
+        padding-top: 50px;
+    }
+
+    .header__link-order {
+        margin: 0;
+    }
+
+    .intro__text-subtitle,
+    .intro__text-title {
+        text-align: center;
+    }
+
+    .intro__carousel-img {
+        padding-top: 50px;
+        object-fit: contain;
+    }
+
+    .about__img {
+        object-fit: contain;
+        margin-bottom: 50px;
+    }
+
+    .cap__img {
+        padding-top: 50px;
+    }
+
+    .works__content {
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    .works__content-title {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .work__content-img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .works__content-link {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width:768px) {}
+
+@media (max-width:650px) {
+    .footer__list-link{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:576px) {
+
+    .navbar>.container {
+        padding: 0 20px;
+    }
+
+    .intro__brand {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .about__work {
+        line-height: 0;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-size: 14px;
+    }
+
+    .about__content-title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .about__content-text {
+        text-align: justify;
+    }
+
+    .about__content-btn {
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        max-width: max-content;
+    }
+
+}
+
+@media (max-width:450px) {
+
+    .intro__text-title {
+        font-size: 30px;
+
+    }
+
+    .intro__btn {
+        width: 220px;
+    }
+
+    .intro__brand-img {
+        width: 50px;
+    }
+
+    .about__work {
+        position: absolute;
+        top: 40px;
+    }
+
+    .about__content-title {
+        font-size: 20px;
+    }
+
+    .about__content-text {
+        font-size: 16px;
+    }
+
+    .about__content-btn {
+        font-size: 14px;
+    }
+
+    .accordion-body {
+        padding: 15px;
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .cap__title {
+        font-size: 30px;
+    }
+
+
+    .accordion-button {
+        font-size: 16px;
+    }
+
+    .works__title{
+        font-size: 30px;
+    }
+
+    .footer__list-link{
+        font-size: 13px;
+    }
+
+
+}
+
+@media (max-width:350px) {
+
+    .intro__text-title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    
+    .about{
+        padding: 40px 0;
+    }
+    
+    .about__img{
+        margin-bottom: -30px;
+    }
+    
+    .works{
+        padding: 15px 0 80px;
+    }
+    
+    .intro__text-subtitle {
+        font-size: 20px;
+    }
+
+    .intro__carousel-img {
+        height: 350px;
+    }
+
+    .about__work {
+        position: absolute;
+        top: 70px;
+        font-size: 10px;
+
+    }
+
+    .about__work:after {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+        padding: 0;
+    }
+    
+    .footer__list-link{
+        font-size: 12px;
+    }
+    
+    .footer__list{
+        margin-bottom: 0px;
+    }
+    
+    .footer__adress{
+        margin-bottom: 40px;
+    }
+
+}
